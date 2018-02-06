@@ -1,0 +1,44 @@
+h1{
+    font-weight:bold;
+    font-size:130px;
+    background-color:magenta;
+
+}
+
+h4{
+    font-weight:bold;
+    font-size:50px;
+    background-color:greenyellow;
+
+}
+
+img{
+
+    width:50%;
+    height: 140px;
+}
+
+.headerclass{
+    color:#802934;
+
+}
+
+.redtext{
+    color: #802d4a;
+
+}
+
+#exampleInputEmail1{
+    color:brown;
+}
+
+body{
+    font-family: 'Caveat Brush', cursive;
+
+}
+
+.navbar
+{
+    height: 500px;
+    background-color:magenta;
+}

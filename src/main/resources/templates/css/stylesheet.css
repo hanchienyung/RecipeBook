@@ -1,65 +1,46 @@
-h1{
+/*h1{
     font-weight:bold;
     font-size:130px;
     background-color:magenta;
     text-align: center;
-}
+}*/
 
-h9{
+.mainhead{
     font-weight:bold;
     font-size:130px;
     background-color:magenta;
-    text-align: center;
-}
-
-
-h3{
-    font-weight:bold;
-    font-size:50px;
-    text-align: center;
-    border: 1px solid black;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-    background-color: #78e6dd;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-family:'Caveat Brush', cursive;
 }
 
-h10{
+
+
+.subhead{
     font-weight:bold;
     font-size:50px;
     text-align: center;
-    border: 1px solid black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
-    background-color: #78e6dd;
+    /*border: 1px solid black;*/
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #56e63f;
+    font-family:'Caveat Brush', cursive;
 }
 
-h4{
-    color:#802d4a;
-    font-weight:bold;
-    font-size:30px;
-    background-color:greenyellow;
-
-}
-
-h11{
-    font-weight:bold;
-    font-size:50px;
-    background-color:greenyellow;
-
-}
-
-par {
-    margin: 0;
-}
 
 img{
 
-    width:70px;
-    height: 150px;
+    width:500px;
+}
+
+.imgnepalflg{
+    width:265px;
 }
 
 .headerclass{
@@ -80,17 +61,9 @@ img{
     color:brown;
 }
 
-body{
-    font-family: 'Caveat Brush', cursive;
-    background-color: magenta;
 
-}
-
-.navbar
+.nav-link
 {
-    /*position:absolute;*/
-    height: 100px;
-    bottom: 0;
-    left:0;
-    /*background-color:magenta;*/
+   color: magenta;
 }
+

@@ -2,7 +2,39 @@ h1{
     font-weight:bold;
     font-size:130px;
     background-color:magenta;
+    text-align: center;
+}
 
+h9{
+    font-weight:bold;
+    font-size:130px;
+    background-color:magenta;
+    text-align: center;
+}
+
+
+h3{
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #78e6dd;
+}
+
+h10{
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #78e6dd;
 }
 
 h4{
@@ -12,15 +44,30 @@ h4{
 
 }
 
+h11{
+    font-weight:bold;
+    font-size:50px;
+    background-color:greenyellow;
+
+}
+
+par {
+    margin: 0;
+}
+
 img{
 
-    width:50%;
-    height: 140px;
+    width:70px;
+    height: 150px;
 }
 
 .headerclass{
     color:#802934;
 
+}
+
+.purpletext{
+    color: magenta;
 }
 
 .redtext{
@@ -34,11 +81,15 @@ img{
 
 body{
     font-family: 'Caveat Brush', cursive;
+    background-color: magenta;
 
 }
 
 .navbar
 {
-    height: 500px;
-    background-color:magenta;
+    /*position:absolute;*/
+    height: 100px;
+    bottom: 0;
+    left:0;
+    /*background-color:magenta;*/
 }

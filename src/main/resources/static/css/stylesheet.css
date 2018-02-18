@@ -1,0 +1,69 @@
+/*h1{
+    font-weight:bold;
+    font-size:130px;
+    background-color:magenta;
+    text-align: center;
+}*/
+
+.mainhead{
+    font-weight:bold;
+    font-size:130px;
+    background-color:magenta;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-family:'Caveat Brush', cursive;
+}
+
+
+
+.subhead{
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #56e63f;
+    font-family:'Caveat Brush', cursive;
+}
+
+
+img{
+
+    width:500px;
+}
+
+.imgnepalflg{
+    width:265px;
+}
+
+.headerclass{
+    color:#802934;
+
+}
+
+.purpletext{
+    color: magenta;
+}
+
+.redtext{
+    color: #802d4a;
+
+}
+
+#exampleInputEmail1{
+    color:brown;
+}
+
+
+.nav-link
+{
+    color: magenta;
+}
+

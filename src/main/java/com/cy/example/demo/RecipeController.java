@@ -10,4 +10,37 @@ public class RecipeController {
         return "mainpage";
     };
 
+    @RequestMapping("/mainpage")
+    public String mainPage(){
+        return "mainpage";
+    };
+
+    @RequestMapping("/recipes")
+    public String recipespage(){
+        return "recipespage";
+    };
+
+    @RequestMapping("/bara")
+    public String baraPage(){
+        return "barapage";
+    };
+
+    @RequestMapping("/croque")
+    public String croquepage(){
+        return "croquepage";
+    };
+
+    @RequestMapping("/golabjamun")
+    public String golabpage(){
+        return "golabjamun";
+    };
+
+
+    @RequestMapping("/injera")
+    public String injerapage(){
+        return "injerapage";
+    };
+
+
+
 }

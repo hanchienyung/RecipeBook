@@ -1,6 +1,7 @@
 package com.cy.example.demo;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -15,17 +16,17 @@ public class RecipeController {
         return "mainpage";
     };
 
-    @RequestMapping("/recipes")
+    @RequestMapping("/recipespage")
     public String recipespage(){
         return "recipespage";
     };
 
-    @RequestMapping("/bara")
+    @RequestMapping("/barapage")
     public String baraPage(){
         return "barapage";
     };
 
-    @RequestMapping("/croque")
+    @RequestMapping("/croquepage")
     public String croquepage(){
         return "croquepage";
     };
@@ -36,7 +37,7 @@ public class RecipeController {
     };
 
 
-    @RequestMapping("/injera")
+    @RequestMapping("/injerapage")
     public String injerapage(){
         return "injerapage";
     };
